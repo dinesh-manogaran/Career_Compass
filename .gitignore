@@ -1,0 +1,16 @@
+.env
+.env.*
+*.sqlite3
+*.db
+__pycache__/
+*.pyc
+venv/
+.venv/
+node_modules/
+dist/
+build/
+.vscode/
+.DS_Store
+*.pem
+*.key
+*.crt
