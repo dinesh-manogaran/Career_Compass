@@ -99,17 +99,18 @@ python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
 uvicorn backend.main:app --reload --port 8000
-
-✅ Frontend Setup (React + Vite)
-
+```
+### ✅ Frontend Setup (React + Vite)
+```
 cd frontend
 npm install
 npm run dev
-
+```
 Frontend URL → http://localhost:5173
+
 Backend URL → http://localhost:8000
 
-🔐 Environment Variables
+## 🔐 Environment Variables
 
 Create a .env file inside the backend folder:
 
@@ -117,8 +118,9 @@ DATABASE_URL=sqlite:///./db.sqlite3
 SECRET_KEY=your_secret_key
 GEMINI_API_KEY=your_gemini_api_key
 
-📦 Project Structure
+## 📦 Project Structure
 
+```
 Career_Compass_/
 │── backend/
 │   ├── main.py
@@ -136,32 +138,30 @@ Career_Compass_/
 │
 │── .gitignore
 │── README.md
+```
 
-📌 Deliverable (Submission Requirement)
-
-🔗 Public GitHub Repository:
-https://github.com/dinesh-manogaran/Career_Compass
-
-👨‍💻 Developer Information
+## 👨‍💻 Developer Information
 
 Dinesh Manogaran
+
 Final Year Electronics & Communication Engineering (ECE) Student
+
 Aspiring Software Developer
 
-🎯 Project Objective (For Interviewers)
+## 🎯 Project Objective
 
 This project was developed to demonstrate:
-Full-stack application development skills
-Secure authentication implementation
-AI integration using real-world APIs
-Backend API design using FastAPI
-Database handling using ORM
-Resume analysis and skill gap detection logic
-Visualization and UI interactivity
+- Full-stack application development skills
+- Secure authentication implementation
+- AI integration using real-world APIs
+- Backend API design using FastAPI
+- Database handling using ORM
+- Resume analysis and skill gap detection logic
+- Visualization and UI interactivity
 
-🎉 Conclusion
+## 🎉 Conclusion
 
 Career Compass is a production-oriented Proof-of-Concept (POC) that showcases my ability to:
-Design scalable software architecture
-Integrate AI into real-world applications
-Build secure, data-driven full-stack systems
+- Design scalable software architecture
+- Integrate AI into real-world applications
+- Build secure, data-driven full-stack systems
