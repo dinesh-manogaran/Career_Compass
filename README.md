@@ -120,7 +120,7 @@ GEMINI_API_KEY=your_gemini_api_key
 ⚠️ The .env file is excluded using .gitignore for security reasons.
 
 📦 Project Structure
-pgsql
+plaintext
 Copy code
 Career_Compass_/
 │── backend/
